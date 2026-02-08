@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BeerCSS Form Controls Examples</title>
+  <link href="https://cdn.jsdelivr.net/npm/beercss@4.0.2/dist/cdn/beer.min.css" rel="stylesheet">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@4.0.2/dist/cdn/beer.min.js"></script>
+</head>
+<body class="light">
+  <main class="responsive">
+    <div class="padding">
+      <h3>Form Controls Examples</h3>
+
+      <div class="grid">
+        <!-- Text Inputs -->
+        <div class="s12 m6">
+          <article class="border">
+            <div class="padding">
+              <h6>Text Inputs</h6>
+              <div class="field label border">
+                <input type="text">
+                <label>Default (Filled)</label>
+              </div>
+              <div class="field label outline">
+                <input type="text">
+                <label>Outlined</label>
+              </div>
+              <div class="field label border prefix">
+                <i>person</i>
+                <input type="text">
+                <label>With Prefix</label>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Textarea & Select -->
+        <div class="s12 m6">
+          <article class="border">
+            <div class="padding">
+              <h6>Textarea & Select</h6>
+              <div class="field label border">
+                <textarea></textarea>
+                <label>Autoresize Textarea</label>
+              </div>
+              <div class="field label border">
+                <select>
+                  <option>Option 1</option>
+                  <option>Option 2</option>
+                </select>
+                <label>Select menu</label>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Selection Controls -->
+        <div class="s12 m6">
+          <article class="border">
+            <div class="padding">
+              <h6>Selection Controls</h6>
+              <nav>
+                <label class="checkbox">
+                  <input type="checkbox">
+                  <span>Checkbox</span>
+                </label>
+                <label class="radio">
+                  <input type="radio" name="r1">
+                  <span>Radio 1</span>
+                </label>
+                <label class="radio">
+                  <input type="radio" name="r1">
+                  <span>Radio 2</span>
+                </label>
+              </nav>
+              <nav class="top-space">
+                <label class="switch">
+                  <input type="checkbox">
+                  <span>Switch</span>
+                </label>
+                <label class="switch icon">
+                  <input type="checkbox">
+                  <span><i>close</i><i>done</i></span>
+                </label>
+              </nav>
+            </div>
+          </article>
+        </div>
+
+        <!-- Slider -->
+        <div class="s12 m6">
+          <article class="border">
+            <div class="padding">
+              <h6>Slider</h6>
+              <div class="slider">
+                <input type="range">
+                <span></span>
+              </div>
+              <div class="slider medium">
+                <input type="range">
+                <span><i>sunny</i></span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

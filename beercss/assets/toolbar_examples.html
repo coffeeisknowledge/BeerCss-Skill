@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BeerCSS Toolbar Examples</title>
+  <link href="https://cdn.jsdelivr.net/npm/beercss@4.0.2/dist/cdn/beer.min.css" rel="stylesheet">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@4.0.2/dist/cdn/beer.min.js"></script>
+</head>
+<body class="light">
+  <main class="responsive">
+    <div class="padding">
+      <h3>Toolbar Examples</h3>
+
+      <div class="grid">
+        <!-- Default Toolbar -->
+        <div class="s12 m6">
+          <article class="border">
+            <div class="padding">
+              <h6>Default Toolbar</h6>
+              <nav class="toolbar border">
+                <a><i>videocam_off</i></a>
+                <a><i>mic</i></a>
+                <a class="active"><i>front_hand</i></a>
+                <a><i>more_vert</i></a>
+              </nav>
+              <p class="small-text top-space">Basic horizontal toolbar with border.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Toolbar with Labels -->
+        <div class="s12 m6">
+          <article class="border">
+            <div class="padding">
+              <h6>Toolbar with Labels</h6>
+              <nav class="toolbar primary-container">
+                <a>
+                  <i>videocam_off</i>
+                  <span>Video</span>
+                </a>
+                <a>
+                  <i>mic</i>
+                  <span>Speech</span>
+                </a>
+                <a class="active">
+                  <i>front_hand</i>
+                  <span>Hand</span>
+                </a>
+              </nav>
+            </div>
+          </article>
+        </div>
+
+        <!-- Floating Toolbar -->
+        <div class="s12 m6">
+          <article class="border">
+            <div class="padding">
+              <h6>Floating Toolbar</h6>
+              <nav class="center-align tiny-space">
+                <nav class="toolbar medium-elevate round">
+                  <a><i>mic</i></a>
+                  <a><i>videocam</i></a>
+                  <a><i>share</i></a>
+                </nav>
+                <button class="circle extra error"><i>call_end</i></button>
+              </nav>
+              <p class="small-text top-space text-center">Commonly used for call controls.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Vertical & Docked -->
+        <div class="s12 m6">
+          <article class="border">
+            <div class="padding">
+              <h6>Vertical & Docked</h6>
+              <div class="row">
+                <nav class="toolbar vertical border">
+                  <a><i>edit</i></a>
+                  <a><i>content_copy</i></a>
+                  <a><i>delete</i></a>
+                </nav>
+                <div class="max left-padding">
+                  <nav class="toolbar max secondary-container">
+                    <a class="max">Full Width Docked</a>
+                    <a><i>close</i></a>
+                  </nav>
+                  <p class="top-space">Vertical toolbars are great for side-actions.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </main>
+</body>
+</html>

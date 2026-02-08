@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BeerCSS Content Display Examples</title>
+  <link href="https://cdn.jsdelivr.net/npm/beercss@4.0.2/dist/cdn/beer.min.css" rel="stylesheet">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@4.0.2/dist/cdn/beer.min.js"></script>
+</head>
+<body class="light">
+  <main class="responsive">
+    <div class="padding">
+      <h3>Content Display Examples</h3>
+
+      <div class="grid">
+        <!-- Cards -->
+        <div class="s12 m6">
+          <article class="card">
+            <img src="https://www.beercss.com/beer-and-woman.svg" class="responsive">
+            <div class="padding">
+              <h5>Card Headline</h5>
+              <p>Standard card with responsive image and actions.</p>
+              <nav class="right-align">
+                <button>Cancel</button>
+                <button class="fill">Confirm</button>
+              </nav>
+            </div>
+          </article>
+        </div>
+
+        <!-- Lists -->
+        <div class="s12 m6">
+          <ul class="list border">
+            <li>
+              <i>person</i>
+              <div class="max">
+                <h6>Headline 1</h6>
+                <div>Supporting text line</div>
+              </div>
+              <button class="circle transparent"><i>more_vert</i></button>
+            </li>
+            <div class="divider"></div>
+            <li>
+              <i>group</i>
+              <div class="max">
+                <h6>Headline 2</h6>
+                <div>Supporting text line</div>
+              </div>
+              <label class="badge red circle">2</label>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tables -->
+        <div class="s12">
+          <table class="border stripes">
+            <thead>
+              <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th class="right-align">Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Data 1.1</td><td>Data 1.2</td><td class="right-align">100</td></tr>
+              <tr><td>Data 2.1</td><td>Data 2.2</td><td class="right-align">250</td></tr>
+              <tr><td>Data 3.1</td><td>Data 3.2</td><td class="right-align">50</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

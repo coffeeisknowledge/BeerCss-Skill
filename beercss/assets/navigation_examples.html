@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BeerCSS Navigation Examples</title>
+  <link href="https://cdn.jsdelivr.net/npm/beercss@4.0.2/dist/cdn/beer.min.css" rel="stylesheet">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@4.0.2/dist/cdn/beer.min.js"></script>
+</head>
+<body class="light">
+  <nav class="left">
+    <a><i>home</i><span>Home</span></a>
+    <a><i>search</i><span>Search</span></a>
+    <a><i>notifications</i><span>Alerts</span></a>
+    <div class="divider"></div>
+    <a><i>person</i><span>Profile</span></a>
+  </nav>
+
+  <main class="responsive">
+    <div class="padding">
+      <h3>Navigation Patterns</h3>
+
+      <section>
+        <h6>Horizontal Navigation (Tabs)</h6>
+        <nav class="tabbed">
+          <a class="active">Active Tab</a>
+          <a>Standard Tab</a>
+          <a>Another Tab</a>
+        </nav>
+      </section>
+
+      <section class="top-space">
+        <h6>Menu Triggers</h6>
+        <div class="row">
+          <div>
+            <button>
+              <span>Default Menu</span>
+              <i>arrow_drop_down</i>
+            </button>
+            <menu>
+              <li><a>Item 1</a></li>
+              <li><a>Item 2</a></li>
+            </menu>
+          </div>
+          
+          <div class="left-space">
+            <button class="border">
+              <span>Right Menu</span>
+            </button>
+            <menu class="right">
+              <li><a>Action A</a></li>
+              <li><a>Action B</a></li>
+            </menu>
+          </div>
+        </div>
+      </section>
+
+      <section class="top-space">
+        <h6>AppBar (Top)</h6>
+        <nav class="top primary">
+          <button class="circle transparent"><i>menu</i></button>
+          <h5 class="max">Application</h5>
+          <button class="circle transparent"><i>search</i></button>
+          <button class="circle transparent"><i>more_vert</i></button>
+        </nav>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
