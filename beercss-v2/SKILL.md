@@ -247,5 +247,4 @@ Gemini:
 ---
 
 **Version:** 2.0.0
-**Last Updated:** 2026-02-15
-**Maintainer:** Claude
+**Maintainer:** Gemini
