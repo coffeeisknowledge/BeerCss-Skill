@@ -1,4 +1,4 @@
-## Tabs
+# Tabs
 
 align: 'default', 'left-align', 'center-align', 'right-align'
 page transition: 'page default', 'page left', 'page right'
